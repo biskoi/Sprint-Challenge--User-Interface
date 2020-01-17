@@ -283,6 +283,10 @@ footer nav a {
     border-bottom: dotted 2px black;
 }
 
+.aboutMid h2{
+    margin-top: 2%;
+}
+
 .aboutMid{
     display: flex;
     flex-wrap: wrap;
