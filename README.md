@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is different from normal HTML tags in that they contain meaning in them, to assist both developers working on the file and also machines and accessibility options, such as for text-to-voice for the sight impaired. Semantic HTML helps with SEO, and lets bots on the internet have a better understanding of what is on our webpage. For example, a <div> tag is non-semantic, because a div can contain anything - it's just a container. A <nav> tag, on the other hand, communicates that the contents of that tag belong in the navbar. Machines could prioritise displaying the <main>, another semantic tag, over <div> tags.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block; will format the box so that it is the only thing appearing on that particular line, taking up as much width as it can, pushing the next item below it. The inline property allows items to be displayed next to each other, only taking up as much space as the element needs.
 
 3. What are the 4 areas of the box model?
 
+margin, border, padding, content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+align-item works on the cross-axis, or vertical axis with the default flex direction.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to developers because it provides a platform on which people can work together without the fear of overwriting eachother's work, or allowing the code to become a huge mess of untracked changes. Being able to track the changes means that developers will have a much better idea of where the project is at, be able to review code before it is merged. Being able to fork and branch also means that multiple people can work on the same thing at once. Git also provides a backup of your code, so that you can restore to a previous commit in the case that you break your code and have to revert.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
